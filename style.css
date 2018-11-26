@@ -1,0 +1,66 @@
+
+h2 h4 {
+  font-family: 'Lato', sans-serif;
+
+}
+
+p {
+  
+font-family: 'Comfortaa', cursive;
+}
+
+.container{
+  justify-content: center;
+}
+
+.section-contact-1 h4,
+.section-contact-2 h4,
+.section-contact-3 h4 {
+  margin-bottom: 5px;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.section-contact-1 .form-control,
+.section-contact-1 .form-control:focus {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+  padding: 8px 0;
+  font-size: 24px;
+  padding-left: 10px;
+}
+.section-contact-1 .contact-form {
+  
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.title {
+  text-align: center;
+  border: 2px, rgb(135, 165, 107), solid;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+}
+
+.form-c {
+
+  padding-left: 33%;
+  padding-right: 33%;
+
+}
+
+.foot {
+  margin-top: 20px;
+  padding-top: 20px;
+}
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+
