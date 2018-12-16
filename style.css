@@ -9,6 +9,43 @@ p {
 font-family: 'Comfortaa', cursive;
 }
 
+.map {
+  height: 400px;
+  width: 600px;
+}
+
+@media screen and (max-width: 992px) {
+  .map {
+    float: none;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .map {
+    float: none;
+    display: block;
+  }
+}
+
+iframe {
+  height: 400px;
+  width: 600px;
+}
+.map{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map iframe{
+  left:0;
+  top:0;
+  height:600px;
+  width:700px;
+  position:absolute;
+}
+
 .container{
   justify-content: center;
 }
